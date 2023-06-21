@@ -1,13 +1,10 @@
-### Hi there 👋
 
-<h1>I'm Tapio <br/>
+<h1>I'm Tapio <strong>**Game Developer**</strong></h1>
+<h3>Hi there 👋 My name is Tapio Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
+<h2>🤳 Connect with me:</h2>
+<a href="https://www.linkedin.com/in/tapio-kettunen-aa46a21b4" target="_blank">Visit my LinkedIn profile</a>
 
-<h2> 🤳 Connect with me:</h2>
-
-[<img align="left" alt="TapioKettunen | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]:www.linkedin.com/in/tapio-kettunen-aa46a21b4
 
 <!--
 **Erto87/Erto87** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
