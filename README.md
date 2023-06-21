@@ -1,9 +1,20 @@
-
 <h1>I'm Tapio <strong>**Game Developer**</strong></h1>
 <h3>Hi there 👋 My name is Tapio Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
+<h2>🧰 Tools</h2>
+<div style="display:flex;">
+  <div style="margin-right:20px;">
+    <img alt="Unity" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png"/>
+  </div>
+  <div>
+    <img alt="C#" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"/>
+  </div>
+</div>
+<br />
+
 <h2>🤳 Connect with me:</h2>
 <a href="https://www.linkedin.com/in/tapio-kettunen-aa46a21b4" target="_blank">Visit my LinkedIn profile</a>
+
 
 
 <!--
