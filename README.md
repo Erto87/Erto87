@@ -42,7 +42,7 @@ This Game Design Document outlines the key aspects of the Project Horror Game, i
 </details>
 
 <details>
-<summary><h3>Title: Animal Game https://github.com/Erto87/ProjectHorror](https://play.unity.com/mg/other/build-6ic)</h3></summary>
+<summary><h3>Title: Animal Game https://play.unity.com/mg/other/build-6ic</h3></summary>
 
 What is it?
 The project is a 2D top-down action game played as an animal, showcasing the life of the animal with information about it. It will be a browser game.
