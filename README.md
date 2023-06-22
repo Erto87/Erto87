@@ -40,6 +40,32 @@ UI Design: The game's user interface (UI) will have a minimalist design.
 
 This Game Design Document outlines the key aspects of the Project Horror Game, including its genre, references, gameplay mechanics, controls, story, and technical details. It serves as a roadmap and reference for the development team to ensure a cohesive and immersive horror survival experience.
 </details>
+
+<details>
+<summary><h3>Title: Animal Game https://github.com/Erto87/ProjectHorror](https://play.unity.com/mg/other/build-6ic)</h3></summary>
+
+What is it?
+The project is a 2D top-down action game played as an animal, showcasing the life of the animal with information about it. It will be a browser game.
+
+Gameplay mechanics
+The player chooses a continent with an animal on the world map. After that, the player gets to play as the animal in a top-down view, gathering food and avoiding dangers until reaching the finish line.
+
+The maps are freeroam areas.
+
+The player will find information "pop-ups" in the form of signs, providing details about the playable animal, its environment, and the threats it faces. At the end of each level, there will be a quiz based on the information pop-ups. Points are awarded for correct quiz answers.
+
+The quiz will be located at the center of the map and won't allow the player to answer it if they haven't found all the information pop-ups. It will notify how many are still missing.
+
+The player moves by WASD.
+
+Enemies will patrol the level, attacking the player if they get close enough.
+
+Food pickups heal the player.
+Art style
+The art style will be cartoon-like, with large colorful assets to appeal to children. The character art will be in a top-down perspective, while the environmental art will be partially top-down and partially side view.
+
+</details>
+  
 <h2>🧰 Tools</h2>
 <div style="display:flex;">
   <div style="margin-right:20px;">
