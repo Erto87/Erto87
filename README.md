@@ -3,7 +3,7 @@
 
 <h2>👨‍💻 My Projects</h2>
 <details>
-<summary><h3>Title: Project Horror Game https://github.com/Erto87/ProjectHorror</h3></summary>
+<summary><h3>Title: Dark Rooms https://github.com/Erto87/ProjectHorror</h3></summary>
 
 Genre: Horror survival
 
