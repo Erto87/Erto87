@@ -1,7 +1,7 @@
 <h1>I'm Tapio <strong>**Game Developer**</strong></h1>
 <h3>Hi there 👋 My name is Tapio Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
-<h2>👨‍💻 My School Project</h2>
+<h2>👨‍💻 My School Project (Working In a Team)</h2>
 <details>
 <summary><h3>Title: Dark Rooms https://github.com/Erto87/ProjectHorror</h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/></summary>
 
@@ -68,6 +68,7 @@ The art style will be cartoon-like, with large colorful assets to appeal to chil
 
 <details>
 <summary><h3>Title: Delirium https://play.unity.com/mg/other/deliriumbuild</h3><img alt="Delirium" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/Delirium.png"/></summary>
+Limbo inspired 2D platformer
 </details>
   
 <h2>🧰 Tools</h2>
