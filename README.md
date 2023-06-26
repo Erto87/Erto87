@@ -68,6 +68,7 @@ The art style will be cartoon-like, with large colorful assets to appeal to chil
 
 <details>
 <summary><h3>Title: Delirium https://play.unity.com/mg/other/deliriumbuild</h3><img alt="Delirium" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/Delirium.png"/></summary>
+</details>
   
 <h2>🧰 Tools</h2>
 <div style="display:flex;">
