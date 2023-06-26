@@ -1,11 +1,9 @@
 <h1>I'm Tapio <strong>**Game Developer**</strong></h1>
 <h3>Hi there 👋 My name is Tapio Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
-<h2>👨‍💻 My Projects</h2>
+<h2>👨‍💻 My School Project</h2>
 <details>
 <summary><h3>Title: Dark Rooms https://github.com/Erto87/ProjectHorror</h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/></summary>
-
-
 
 Genre: Horror survival
 
@@ -67,6 +65,9 @@ Art style
 The art style will be cartoon-like, with large colorful assets to appeal to children. The character art will be in a top-down perspective, while the environmental art will be partially top-down and partially side view.
 
 </details>
+
+<details>
+<summary><h3>Title: Delirium https://play.unity.com/mg/other/deliriumbuild</h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/></summary>
   
 <h2>🧰 Tools</h2>
 <div style="display:flex;">
