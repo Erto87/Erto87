@@ -44,6 +44,17 @@ This Game Design Document outlines the key aspects of the Project Horror Game, i
 <details>
 <summary><h3>Title: FPH First Person Hockey https://github.com/Erto87/FPH-First-Person-Hockey</h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.png"/></summary>
 
+FPH (First Person Hockey) is a sports game developed using Unity and programmed in C#. The game offers both an online mode and a training mode. FPH falls under the sports genre with semi-realistic gameplay mechanics, providing an immersive first-person perspective.
+
+Controls:
+Movement: Players navigate the game environment using the WASD keys on the keyboard (support xbox controller).
+Camera: The camera follows the player's head movements, simulating a first-person perspective. The mouse is used to control the camera direction and aim.
+Actions: shooting and passing are performed using mouse clicks and keyboard inputs.
+
+Game Modes:
+Online Mode: Players can connect with opponents online.
+Training Mode: Single player training.
+
 
 </details>
 
