@@ -86,7 +86,8 @@ The art style will be cartoon-like, with large colorful assets to appeal to chil
 
 <details>
 <summary><h3>Title: Delirium https://play.unity.com/mg/other/deliriumbuild</h3><img alt="Delirium" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/Delirium.png"/></summary>
-Limbo inspired 2D platformer
+
+Delirium is inspired by Limbo and is a 2D platformer where the player's goal is to survive and reach end of the level. Player controls a small character in a dark and eerie environment and must collect glowing orbs. However, the journey is not easy as there are two different types of enemies that attempt to impede the player's progress.
 </details>
   
 <h2>🧰 Tools</h2>
