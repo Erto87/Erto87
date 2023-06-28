@@ -343,6 +343,72 @@ Training Mode: Single player training.
 <details>
 <summary><h3>Title: Animal Game https://play.unity.com/mg/other/build-6ic</h3><img alt="AnimalGame" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/AnimalGame.png"/></summary>
 
+<details>
+<summary><h3>Example code I made for sprinting</h3></summary>
+  
+```
+public class PlayerSprintHandler : MonoBehaviour
+{
+    public Slider staminaBar;  // Reference to the UI slider that displays stamina
+
+    private int maxStamina = 100;  // Maximum stamina value
+    [HideInInspector] public int currentStamina;  // Current stamina value (hidden in the Inspector)
+
+    private WaitForSeconds regenTick = new WaitForSeconds(0.1f);  // Wait time between stamina regeneration ticks
+    private Coroutine regen;  // Coroutine for stamina regeneration
+
+    public static PlayerSprintHandler instance;  // Static reference to the PlayerSprintHandler instance
+
+    private void Awake()
+    {
+        instance = this;  // Set the static instance reference to this script
+    }
+
+    void Start()
+    {
+        currentStamina = maxStamina;  // Set the current stamina to the maximum value
+        staminaBar.maxValue = maxStamina;  // Set the maximum value of the stamina bar UI
+        staminaBar.value = maxStamina;  // Set the initial value of the stamina bar UI to maximum
+    }
+
+    public void UseStamina(int amount)
+    {
+        if (currentStamina - amount >= 0)  // Check if there's enough stamina to use
+        {
+            currentStamina -= amount;  // Decrease the current stamina by the specified amount
+            staminaBar.value = currentStamina;  // Update the stamina bar UI
+
+            if (regen != null)
+                StopCoroutine(regen);  // Stop the stamina regeneration coroutine if it's already running
+
+            regen = StartCoroutine(RegenStamina());  // Start the stamina regeneration coroutine
+        }
+        else
+        {
+            Debug.Log("OUT OF STAMINA");  // Output a debug message indicating that there's not enough stamina
+        }
+    }
+
+    private IEnumerator RegenStamina()
+    {
+        yield return new WaitForSeconds(2);  // Wait for 2 seconds before starting the stamina regeneration
+
+        while (currentStamina < maxStamina)  // Continue the loop until stamina reaches the maximum value
+        {
+            currentStamina += maxStamina / 100;  // Increment the stamina by a percentage of the maximum value
+            staminaBar.value = currentStamina;  // Update the stamina bar UI
+            yield return regenTick;  // Wait for the specified time before the next regeneration tick
+        }
+
+        regen = null;  // Set the stamina regeneration coroutine reference to null when regeneration is complete
+    }
+}
+```
+
+</details>
+
+
+
 What is it?
 The project is a 2D top-down action game played as an animal, showcasing the life of the animal with information about it. It will be a browser game.
 
