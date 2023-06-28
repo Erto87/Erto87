@@ -178,6 +178,153 @@ This Game Design Document outlines the key aspects of the Project Horror Game, i
 <details>
 <summary><h3>Title: FPH First Person Hockey https://github.com/Erto87/FPH-First-Person-Hockey</h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.png"/></summary>
 
+<details>
+<summary><h3>Example code I made for following game time</h3></summary>
+  
+```
+public class TimerController : NetworkBehaviour
+{
+    public static TimerController instance;  // Singleton instance of the TimerController
+    public TextMeshPro timerText, timerText2;  // Text objects to display the timer
+    public float timer = 300.0f;  // Initial timer value
+    //public bool isTimer = false;
+    public NetworkVariable<bool> isTimer = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);  // Network variable to synchronize the timer across the network
+
+    //public NetworkVariable<bool> playReplay = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);
+    public bool playReplay;  // Bool to control replay functionality
+    public bool playReplayOnce;  // Bool to ensure replay is started only once
+
+    public GameObject playerCamera;  // Reference to the player camera object
+    public NetworkVariable<bool> endOfPeriod = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);  // Network variable to indicate the end of the period
+
+    void Start()
+    {
+        playReplayOnce = false;
+        //StartTimer();
+        instance = this;  // Assign the singleton instance
+        //isTimer.Value = false;
+    }
+
+    void Update()
+    {
+        HandleTimer();  // Update the timer logic
+    }
+
+    // Display the current time on the timer text objects
+    void DisplayTime()
+    {
+        int minutes = Mathf.FloorToInt(timer / 60.0f);  // Calculate the minutes
+        int seconds = Mathf.FloorToInt(timer - minutes * 60);  // Calculate the seconds
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);  // Update the timer text
+        timerText2.text = string.Format("{0:00}:{1:00}", minutes, seconds);  // Update the secondary timer text
+    }
+
+    // Start the timer
+    public void StartTimer()
+    {
+        playReplayOnce = false;
+        playReplay = false;
+        timerText.color = Color.green;  // Set the timer text color to green
+        timerText2.color = Color.green;  // Set the secondary timer text color to green
+        if (IsServer)
+        {
+            isTimer.Value = true;  // Set the isTimer network variable to true on the server
+        }
+    }
+
+    // Stop the timer
+    public void StopTimer()
+    {
+        timerText.color = Color.red;  // Set the timer text color to red
+        timerText2.color = Color.red;  // Set the secondary timer text color to red
+        if (IsServer)
+        {
+            isTimer.Value = false;  // Set the isTimer network variable to false on the server
+        }
+        if (!playReplayOnce)
+        {
+            StartCoroutine(StartReplay());  // Start the replay coroutine
+            StartCoroutine(StopReplay());  // Start the stop replay coroutine
+            playReplayOnce = true;  // Set the playReplayOnce bool to true
+        }
+    }
+
+    // Reset the timer to its initial value
+    public void ResetTimer()
+    {
+        timer = 300.0f;  // Reset the timer value
+        DisplayTime();  // Update the timer display
+        StartTimer();  // Start the timer
+    }
+
+    // End the current period
+    public void EndOfPeriod()
+    {
+        if (IsServer)
+        {
+            endOfPeriod.Value = true;  // Set the endOfPeriod network variable to true on the server
+        }
+        timerText.ToString();  // Convert the timer text to a string
+        timerText.color = Color.red;  // Set the timer text color to red
+        if (IsHost)
+        {
+            isTimer.Value = false;  // Set the isTimer network variable to false on the host
+        }
+        StartCoroutine(ShowEndOfPeriod());  // Start the show end of period coroutine
+    }
+
+    // Handle the timer countdown and check if the period has ended
+    void HandleTimer()
+    {
+        if (isTimer.Value)
+        {
+            timer -= Time.deltaTime;  // Decrease the timer value based on deltaTime
+            DisplayTime();  // Update the timer display
+        }
+
+        if (timer <= 0f)
+        {
+            timerText.text = string.Format("00:00");  // Set the timer text to "00:00"
+            timerText2.text = string.Format("00:00");  // Set the secondary timer text to "00:00"
+            EndOfPeriod();  // End the current period
+        }
+    }
+
+    // Coroutine to start the replay
+    public IEnumerator StartReplay()
+    {
+        Debug.Log("StartReplay");
+        yield return new WaitForSeconds(3);  // Wait for 3 seconds
+        PuckManager.Instance.DestroyAllPucks();  // Destroy all pucks in the PuckManager
+        playReplay = true;  // Set the playReplay bool to true
+        Debug.Log("Replay Started");
+    }
+
+    // Coroutine to stop the replay
+    public IEnumerator StopReplay()
+    {
+        Debug.Log("StopReplay");
+        yield return new WaitForSeconds(7);  // Wait for 7 seconds
+        playReplay = false;  // Set the playReplay bool to false
+        playReplayOnce = false;  // Reset the playReplayOnce bool
+        Debug.Log("Replay Stopped");
+    }
+
+    // Coroutine to show the end of the period
+    public IEnumerator ShowEndOfPeriod()
+    {
+        if (IsServer)
+        {
+            endOfPeriod.Value = true;  // Set the endOfPeriod network variable to true on the server
+        }
+        yield return new WaitForSeconds(3);  // Wait for 3 seconds
+        playerCamera.gameObject.SetActive(false);  // Deactivate the player camera
+    }
+}
+```
+
+</details>
+
 FPH (First Person Hockey) is a sports game developed using Unity and programmed in C#. The game offers both an online mode and a training mode. FPH falls under the sports genre with semi-realistic gameplay mechanics, providing an immersive first-person perspective.
 
 Controls:
