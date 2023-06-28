@@ -434,6 +434,56 @@ The art style will be cartoon-like, with large colorful assets to appeal to chil
 <details>
 <summary><h3>Title: Delirium https://play.unity.com/mg/other/deliriumbuild</h3><img alt="Delirium" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/Delirium.png"/></summary>
 
+<details>
+<summary><h3>Example code I made for collectables</h3></summary>
+  
+```
+public class ScoreManager : MonoBehaviour
+{
+    public static ScoreManager instance;
+    public TextMeshProUGUI text;
+    public int score;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void ChangeScore(int orbValue)
+    {
+        score += orbValue;
+        text.text = score.ToString() + "/10";
+    }
+}
+
+public class Orb : MonoBehaviour
+{
+    public int orbValue = 1;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            ScoreManager.instance.ChangeScore(orbValue);
+            orbValue = 0;
+        }
+    }
+}
+
+```
+
+</details>
+
 Delirium is inspired by Limbo and is a 2D platformer where the player's goal is to survive and reach end of the level. Player controls a small character in a dark and eerie environment and must collect glowing orbs. However, the journey is not easy as there are two different types of enemies that attempt to impede the player's progress.
 </details>
   
