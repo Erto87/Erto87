@@ -34,11 +34,11 @@ public class Examine : MonoBehaviour
 
     private void Update()
     {
-        //ClickObject();//Decide What Object To Examine
+        //ClickObject();//Decide what object to examine
 
-        TurnObject();//Allows Object To Be Rotated
+        TurnObject();//Allows object to be rotated
 
-        ExitExamineMode();//Returns Object To Original Postion
+        ExitExamineMode();//Returns object to original postion
 
         ZoomCamera();// Zoom camera
     }
@@ -451,12 +451,6 @@ public class ScoreManager : MonoBehaviour
         {
             instance = this;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void ChangeScore(int orbValue)
