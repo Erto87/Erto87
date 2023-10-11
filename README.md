@@ -5,6 +5,8 @@
 <details>
 <summary><h3>Title: Dark Rooms https://github.com/Erto87/ProjectHorror</h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/></summary>
 
+[[Gameplay video]](https://www.youtube.com/watch?v=7ZX4Ji5UHEM&ab_channel=Diskokeisari)
+
 <details>
 <summary><h3>Example code I made for examining game objects in game</h3></summary>
   
@@ -177,6 +179,8 @@ This Game Design Document outlines the key aspects of the Project Horror Game, i
 
 <details>
 <summary><h3>Title: FPH First Person Hockey https://github.com/Erto87/FPH-First-Person-Hockey</h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.png"/></summary>
+
+[[Gameplay video]](https://www.youtube.com/watch?v=jUX5UMskR-0&ab_channel=Diskokeisari)
 
 <details>
 <summary><h3>Example code I made for following game time</h3></summary>
