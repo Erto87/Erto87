@@ -1,4 +1,4 @@
-<h1>I'm Tapio <strong>**Game Developer**</strong></h1>
+<h1>I'm Tero <strong>**Game Developer**</strong></h1>
 <h3>Hi there 👋 My name is Tapio Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
 <h2>👨‍💻 My School Project (Working In a Team)</h2>
