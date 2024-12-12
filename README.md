@@ -35,7 +35,7 @@ First-person horror puzzle game
 [[Gameplay video]](https://www.youtube.com/watch?v=7ZX4Ji5UHEM&ab_channel=Diskokeisari)
 
 
-<h3>Title: Animal Game https://play.unity.com/mg/other/build-6ic</h3><img alt="AnimalGame" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/AnimalGame.png"/>
+<h3>Title: Animal Game https://play.unity.com/en/games/9427045a-af73-4d41-b688-b7a50be4de0c/animalgamemust-be-in-fullscreen</h3><img alt="AnimalGame" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/AnimalGame.png"/>
 The project is a 2D top-down action game played as an animal, showcasing the life of the animal with information about it.
 
 
