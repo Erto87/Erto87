@@ -17,7 +17,7 @@ First person online hockey game
 
 <h2>👨‍💻 My School Project (Solo)</h2>
 <h3>Title: Space Invaders https://terok.itch.io/spaceinvadersclone</h3><img alt="" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/refs/heads/main/SpaceInvaders.png"/>
-Space Invaders is a classic 1970s arcade game where the player controls a spaceship, defending against descending waves of aliens by shooting them while avoiding their attacks.
+Space Invaders is a classic 1970s arcade game where the player controls a spaceship, defending against descending waves of aliens by shooting them while avoiding their attacks. This version is a clone of the original game, created as a school project within a two-week timeframe.
 
 
 
@@ -30,13 +30,10 @@ Space Invaders is a classic 1970s arcade game where the player controls a spaces
 <h2>👯 My School Project (Working In a Team)</h2>
 
 <h3>Title: Dark Rooms  </h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/>
-First-person horror puzzle game
+A first-person horror puzzle game where the player must navigate through the eerie hallways of a hotel. The game features a sinister piccolo entity that chases the player, forcing them to evade its pursuit while moving in the darkness.
 
 [[Gameplay video]](https://www.youtube.com/watch?v=7ZX4Ji5UHEM&ab_channel=Diskokeisari)
 
-
-<h3>Title: Animal Game https://play.unity.com/en/games/9427045a-af73-4d41-b688-b7a50be4de0c/animalgamemust-be-in-fullscreen</h3><img alt="AnimalGame" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/AnimalGame.png"/>
-The project is a 2D top-down action game played as an animal, showcasing the life of the animal with information about it.
 
 
 <h3>Title: Delirium https://play.unity.com/en/games/cdc1e798-3628-4e6b-bc8a-979092aab96c/delirium</h3><img alt="Delirium" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/Delirium.png"/>
