@@ -29,6 +29,11 @@ Space Invaders is a classic 1970s arcade game where the player controls a spaces
 
 <h2>👯 My School Project (Working In a Team)</h2>
 
+<h3>Title: Dark Rooms  </h3><img alt="ChessBot" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/chess.gif"/>
+A self-playing chess AI made using C++ and SFML.
+
+
+
 <h3>Title: Dark Rooms  </h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/>
 A first-person horror puzzle game where the player must navigate through the eerie hallways of a hotel. The game features a sinister piccolo entity that chases the player, forcing them to evade its pursuit while moving in the darkness.
 
