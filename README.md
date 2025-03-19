@@ -29,7 +29,7 @@ Space Invaders is a classic 1970s arcade game where the player controls a spaces
 
 <h2>👯 My School Project (Working In a Team)</h2>
 
-<h3>Title: Dark Rooms  </h3><img alt="ChessBot" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/chess.gif"/>
+<h3>Title: ChessBot  </h3><img alt="ChessBot" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/chess.gif"/>
 A self-playing chess AI made using C++ and SFML.
 
 
