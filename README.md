@@ -16,7 +16,7 @@ First person online hockey game
 
 
 <h2>👨‍💻 My School Project (Solo)</h2>
-<h3>Title: Space Invaders https://terok.itch.io/spaceinvadersclone</h3><img alt="" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/refs/heads/main/SpaceInvaders.png"/>
+<h3>Title: Space Invaders https://terok.itch.io/spaceinvadersclone</h3><img alt="" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/refs/heads/main/Spaceinvaders.gif"/>
 Space Invaders is a classic 1970s arcade game where the player controls a spaceship, defending against descending waves of aliens by shooting them while avoiding their attacks. This version is a clone of the original game, created as a school project within a two-week timeframe.
 
 
