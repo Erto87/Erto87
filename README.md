@@ -6,7 +6,7 @@
 
 
 <h2>🔭 I’m currently working on</h2>
-<h3>Title: FPH First Person Hockey </h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.gif"/>
+<h3>Title: FPH Finnish Pipo Hockey </h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.gif"/>
 First person online hockey game.
 
 [[Gameplay video]](https://www.youtube.com/watch?v=qahDzt_Aobc)
