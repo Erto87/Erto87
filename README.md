@@ -7,7 +7,7 @@
 
 <h2>🔭 I’m currently working on</h2>
 <h3>Title: FPH First Person Hockey </h3><img alt="FPH" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/FPH.gif"/>
-First person online hockey game
+First person online hockey game.
 
 [[Gameplay video]](https://www.youtube.com/watch?v=qahDzt_Aobc)
 
@@ -17,7 +17,7 @@ First person online hockey game
 
 <h2>👨‍💻 My School Project (Solo)</h2>
 <h3>Title: Space Invaders https://terok.itch.io/spaceinvadersclone</h3><img alt="" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/refs/heads/main/Spaceinvaders.gif"/>
-Space Invaders is a classic 1970s arcade game where the player controls a spaceship, defending against descending waves of aliens by shooting them while avoiding their attacks. This version is a clone of the original game, created as a school project within a two-week timeframe.
+This version is a clone of the original game, created as a school project within a two-week timeframe.
 
 
 
@@ -31,6 +31,8 @@ Space Invaders is a classic 1970s arcade game where the player controls a spaces
 
 <h3>Title: ChessBot  </h3><img alt="ChessBot" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/chess.gif"/>
 A self-playing chess AI made using C++ and SFML.
+
+[[To repository]](https://github.com/Erto87/ChessBot)
 
 
 
