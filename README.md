@@ -47,14 +47,12 @@ Delirium is inspired by Limbo and is a 2D platformer where the player's goal is 
 </details>
   
 <h2>🧰 Tools</h2>
-<div style="display:flex;">
-  <div style="margin-right:20px;">
-    <img alt="Unity" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png"/>
-  </div>
-  <div>
-    <img alt="C#" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"/>
-  </div>
-</div>
+
+- Unity
+
+- Visual Studio
+
+- GitHub
 <br />
 
 
