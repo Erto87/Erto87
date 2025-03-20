@@ -37,9 +37,10 @@ A self-playing chess AI made using C++ and SFML.
 
 
 <h3>Title: Dark Rooms  </h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/>
-A first-person horror puzzle game where the player must navigate through the eerie hallways of a hotel. The game features a sinister piccolo entity that chases the player, forcing them to evade its pursuit while moving in the darkness.
+A first-person horror puzzle game.
 
 [[Gameplay video]](https://www.youtube.com/watch?v=7ZX4Ji5UHEM&ab_channel=Diskokeisari)
+[[To repository]](https://github.com/Erto87/ProjectHorror)
 
 
 
