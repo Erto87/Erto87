@@ -55,7 +55,7 @@ Delirium is inspired by Limbo and is a 2D platformer where the player's goal is 
 - GitHub
 <br />
 
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erto87&layout=compact)
 
 
 
