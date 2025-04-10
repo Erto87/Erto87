@@ -32,6 +32,11 @@ A self-playing chess AI made using C++ and SFML.
 
 [[To repository]](https://github.com/Erto87/ChessBot)
 
+<h3>Title: AirportZ  </h3><img alt="ChessBot" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/chess.gif"/>
+Backend: Python & SQL (game logic, user data, resource management) Frontend: HTML, CSS, JavaScript (UI and gameplay interaction) Google Maps API: To generate real-world airports and travel routes
+
+[[To repository]](https://github.com/Erto87/AirportZ))
+
 
 
 <h3>Title: Dark Rooms  </h3><img alt="DarkRooms" width="500px" src="https://raw.githubusercontent.com/Erto87/Erto87/main/DarkRooms.png"/>
