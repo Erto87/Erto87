@@ -59,19 +59,14 @@ Delirium is inspired by Limbo and is a 2D platformer where the player's goal is 
   
 <h2>🧰 Tools</h2>
 
-- Unity
+- Engines: Unity, Godot
 
-- Visual Studio
+- Coding: C++, C#, HTML, CSS, SQL, Python
 
-- GitHub
+- Graphics: Blender, GIMP
 
-- PyCharm
+- Software: Visual Studio, GitHub/Desktop, PyCharm
 
-- SQL
-
-- Godot
-  
-- Blender  
 <br />
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erto87&layout=compact&hide=ShaderLab)
