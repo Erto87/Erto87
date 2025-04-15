@@ -1,7 +1,17 @@
 <h1>I'm Tero <strong>**Game Developer**</strong></h1>
 <h3>Hi there 👋 My name is Tero Kettunen and I am an aspiring game programmer. I have been delving into the fascinating world of game development and have been focusing on learning Unity game engine and C# programming language.</h3>
 
+<h2>🧰 Tools</h2>
 
+- Engines: Unity, Godot
+
+- Coding: C++, C#, HTML, CSS, SQL, Python
+
+- Graphics: Blender, GIMP
+
+- Software: Visual Studio, GitHub/Desktop, PyCharm
+
+<br />
 
 
 
@@ -55,21 +65,11 @@ Delirium is inspired by Limbo and is a 2D platformer where the player's goal is 
 
 [[Play]](https://play.unity.com/en/games/cdc1e798-3628-4e6b-bc8a-979092aab96c/delirium)
 
-</details>
-  
-<h2>🧰 Tools</h2>
+<h2></h2>
 
-- Engines: Unity, Godot
+ ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erto87&layout=compact&hide=ShaderLab)
 
-- Coding: C++, C#, HTML, CSS, SQL, Python
 
-- Graphics: Blender, GIMP
-
-- Software: Visual Studio, GitHub/Desktop, PyCharm
-
-<br />
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erto87&layout=compact&hide=ShaderLab)
 
 
 
